@@ -1,2 +1,5 @@
-package com.JavaRush;public class Test {
+package com.JavaRush;
+
+public class Test {
+    // test
 }

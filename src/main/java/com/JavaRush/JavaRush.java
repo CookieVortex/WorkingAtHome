@@ -105,5 +105,25 @@ public class JavaRush {
     }
 
     /* ------- NEXT ------- */
+
+    public class Solution {
+        public static String[] strings;
+
+        public static void main(String[] args) {
+            String[] strings = new String[6];
+            strings[1] = "Hello";
+            strings[2] = "Hello";
+            strings[3] = "World";
+            strings[4] = "Java";
+            strings[5] = "Tasks";
+            strings[6] = "World";
+            for (int i = 0; i < strings.length; i++) {
+                System.out.print(strings[i] + ", ");
+                if (strings.equals("Hello")) {
+                    strings[i] = null;
+                }
+            }
+        }
+    }
 }
 
